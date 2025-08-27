@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+<<<<<<< HEAD
 .yarn/install-state.gz
+=======
+>>>>>>> ab1909e2409f4b70471b81134e94a4a620aea4e4
 
 # testing
 /coverage
@@ -35,6 +38,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+<<<<<<< HEAD
 
 # uploads
 /public/uploads/*
@@ -49,3 +53,5 @@ logs
 *.log
 
 /generated/prisma
+=======
+>>>>>>> ab1909e2409f4b70471b81134e94a4a620aea4e4
