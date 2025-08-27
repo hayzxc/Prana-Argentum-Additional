@@ -4,8 +4,10 @@ import prisma from "@/lib/prisma";
 
 /**
  * GET: Endpoint publik untuk mencari fumigation tracking
- * berdasarkan nomor kontainer dan notice ID.
+ * berdasarkan nomor kontainer dan notice ID. 
  */
+export const dynamic = "force-dynamic";
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
